@@ -8,7 +8,7 @@ logger = logging.getLogger(__name__)
 
 
 # Remplacez 'YOUR_TELEGRAM_BOT_API_TOKEN' par le token de votre bot
-TOKEN = '7201739195:AAFX1Kqp0hXbFaC5AUilf1JOTVkbRQcKov8'
+TOKEN = 'TOKEN'
 
 # Liens vers les sujets spécifiques dans votre groupe Telegram
 LINKS = {
