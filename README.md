@@ -9,8 +9,8 @@
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 [![Platform](https://img.shields.io/badge/platform-telegram-blue.svg)](https://t.me/Airdrops_CryptOKdo)
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/WebWAGNER67/CryptoKdo/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/WebWAGNER67/CryptoKdo/pulls)
+[![GitHub Issues](https://img.shields.io/github/issues/WebWAGNER67/CryptoKdo.svg)](https://github.com/WebWAGNER67/CryptoKdo/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/WebWAGNER67/CryptoKdo.svg)](https://github.com/WebWAGNER67/CryptoKdo/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
