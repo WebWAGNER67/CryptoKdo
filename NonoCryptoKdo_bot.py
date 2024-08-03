@@ -8,15 +8,10 @@ logger = logging.getLogger(__name__)
 
 
 # Remplacez 'YOUR_TELEGRAM_BOT_API_TOKEN' par le token de votre bot
-TOKEN = 'TOKEN'
+TOKEN = settings.TELEGRAM_TOKEN
 
 # Liens vers les sujets spécifiques dans votre groupe Telegram
-LINKS = {
-    'category_farming': 'https://t.me/Airdrops_CryptOKdo/7/18',  # Remplacez par le lien réel vers le sujet "Farming"
-    'category_tap_to_earn': 'https://t.me/Airdrops_CryptOKdo/3/19',  # Remplacez par le lien réel vers le sujet "Tap to Earn"
-    'category_play_to_earn': 'https://t.me/Airdrops_CryptOKdo/5/20',  # Remplacez par le lien réel vers le sujet "Play to Earn"
-    'category_swipe_to_earn': 'https://t.me/Airdrops_CryptOKdo/46/48'  # Remplacez par le lien réel vers le sujet "Swipe to Earn"
-}
+LINKS = settings.LINKS
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     keyboard = [
