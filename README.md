@@ -8,7 +8,7 @@
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![Platform](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Airdrops_CryptOKdo)
+[![Platform](https://img.shields.io/badge/platform-telegram-blue.svg)](https://t.me/Airdrops_CryptOKdo)
 [![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/WebWAGNER67/CryptoKdo/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/WebWAGNER67/CryptoKdo/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
