@@ -11,3 +11,5 @@ LINKS = {
     'category_play_to_earn': 'https://t.me/Airdrops_CryptOKdo/5/20',  # Remplacez par le lien réel vers le sujet "Play to Earn"
     'category_swipe_to_earn': 'https://t.me/Airdrops_CryptOKdo/46/48'  # Remplacez par le lien réel vers le sujet "Swipe to Earn"
 }
+
+# Tests
