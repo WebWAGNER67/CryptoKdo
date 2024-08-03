@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="" rel="noopener">
+  <a href="" rel="noopener" style="border-radius:50%; overflow: hidden;">
  <img width=200px height=200px src="https://scontent-fra5-2.xx.fbcdn.net/v/t39.30808-1/450332430_10234490213624715_3695103274582084169_n.jpg?stp=dst-jpg_p200x200&_nc_cat=107&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=mUuWYy97v-EQ7kNvgGb2cO0&_nc_ht=scontent-fra5-2.xx&oh=00_AYBWHf2d2QlRqnetNz_m56oVqj7AHtxRx5Qk6kfsHoEjbQ&oe=66B45F77" alt="Bot logo"></a>
 </p>
 
