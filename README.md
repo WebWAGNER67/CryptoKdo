@@ -17,7 +17,7 @@
 
 ---
 
-<p align="center"> 🤖 Few lines describing what your bot does.
+<p align="center"> 🤖 This bot is designed to redirect users from one link to another in a telegram group where there are many channels.
     <br> 
 </p>
 
@@ -28,7 +28,6 @@
 - [How it works](#working)
 - [Usage](#usage)
 - [Getting Started](#getting_started)
-- [Deploying your own bot](#deployment)
 - [Built Using](#built_using)
 - [TODO](../TODO.md)
 - [Contributing](../CONTRIBUTING.md)
@@ -37,7 +36,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your bot.
+This bot was created as part of a Telegram group to better organize Crypto channels. The messages sent by the bot are only used to redirect the user.
 
 ## 🎥 Demo / Working <a name = "demo"></a>
 
@@ -58,85 +57,78 @@ The entire bot is written in Python 3.6
 To use the bot, type:
 
 ```
-!dict word
+/start
 ```
 
-The first part, i.e. "!dict" **is not** case sensitive.
-
-The bot will then give you the Oxford Dictionary (or Urban Dictionary; if the word does not exist in the Oxford Dictionary) definition of the word as a comment reply.
+The bot will then give you the Welcome message.
 
 ### Example:
 
-> !dict what is love
+> /start
 
 **Definition:**
 
-Baby, dont hurt me~
-Dont hurt me~ no more.
-
-**Example:**
-
-Dude1: Bruh, what is love?
-Dude2: Baby, dont hurt me, dont hurt me- no more!
-Dude1: dafuq?
-
-**Source:** https://www.urbandictionary.com/define.php?term=what%20is%20love
+Bienvenue! Utilisez le bouton ci-dessous pour afficher les catégories de jeux.
+Afficher les catégories de jeux
 
 ---
 
-<sup>Beep boop. I am a bot. If there are any issues, contact my [Master](https://www.reddit.com/message/compose/?to=PositivePlayer1&subject=/u/Wordbook_Bot)</sup>
+<sup>Beep boop. I am a bot. If there are any issues, contact my [Master](mailto:wagner-fabien@orange.fr)</sup>
 
-<sup>Want to make a similar reddit bot? Check out: [GitHub](https://github.com/kylelobo/Reddit-Bot)</sup>
+<sup>Want to make a similar telegram bot? Check out: [GitHub](https://github.com/WebWAGNER67/CryptoKdo)</sup>
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
-### Prerequisites
+### Prerequisites <a name = "prerequis">
 
 What things you need to install the software and how to install them.
 
 ```
-Give examples
+pip install pyhton-dotenv
+pip install python-telegram-bot --upgrade
 ```
 
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running.
 
-Say what the step will be
+Create a new environment
 
 ```
-Give the example
+python3 -m venv myenv
 ```
 
-And repeat
+Connect to the environment
 
 ```
-until finished
+source myenv/bin/activate
 ```
 
-End with an example of getting some data out of the system or using it for a little demo.
 
-## 🚀 Deploying your own bot <a name = "deployment"></a>
+Install de dependencies
 
-To see an example project on how to deploy your bot, please see my own configuration:
+[Prerequisites](#prerequis)
 
-- **Heroku**: https://github.com/kylelobo/Reddit-Bot#deploying_the_bot
+Run the bot
+
+```
+python ./main.py #Here ./NonoCryptoKdo.py
+```
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [PRAW](https://praw.readthedocs.io/en/latest/) - Python Reddit API Wrapper
-- [Heroku](https://www.heroku.com/) - SaaS hosting platform
+- [BotFather](https://t.me/@BotFather) - Create a Telegram bot
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
+- [Fabien WAGNER]() - Idea & Initial work
+- [Eric WAGNER](https://github.com/WebWAGNER67) - Production start-up
 
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/WebWAGNER67/CryptoKdo/contributors) who participated in this project.
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
+- ChatGPT (Code helping)
+- Eric WAGNER (Production)
